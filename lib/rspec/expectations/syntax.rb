@@ -127,4 +127,4 @@ class BasicObject
   # @return [Boolean] false if the negative expectation succeeds (else raises)
   # @note This is only available when you have enabled the `:should` syntax.
   # @see RSpec::Matchers
-end
+end if defined?(BasicObject)
